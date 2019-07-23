@@ -20,8 +20,5 @@ class School
     @roster[num]
   end
   
-  def sort
-   self.sort
-  end
-  
+ 
 end
