@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   
   def initialize(name)
@@ -20,5 +22,7 @@ class School
     @roster[num]
   end
   
- 
+  def sort
+  binding.pry
+  end
 end
