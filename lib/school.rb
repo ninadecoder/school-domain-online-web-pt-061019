@@ -30,6 +30,6 @@ class School
   
 end
 
-hodgesbend= School.new("Hoges bend")
+hodgesbend= School.new("Hodges bend")
 hodgesbend.add_student(9, "Nina Kazzim") 
 puts hodgesbend.grade(9)
