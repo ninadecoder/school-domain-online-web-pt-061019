@@ -23,6 +23,6 @@ class School
   end
   
   def sort
-  @roster[grade]<< name.sort {|a,b| a[0]<=>b[0]}
+  # @roster[grade]<< name.sort {|a,b| a[0]<=>b[0]}
   end
 end
