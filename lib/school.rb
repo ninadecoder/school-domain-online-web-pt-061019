@@ -31,5 +31,5 @@ class School
 end
 
 hodgesbend= School.new("Hodges bend")
-hodgesbend.add_student(9, "Nina Kazzim") 
+hodgesbend.add_student("Nina Kazz", 9) 
 puts hodgesbend.grade(9)
