@@ -23,6 +23,11 @@ class School
   end
   
   def sort
-  # @roster[grade]<< name.sort {|a,b| a[0]<=>b[0]}
+  sort_hash = {}
+  @roster.each { |grade, name| 
+    sort_hash[grade] = name.sort }
+    
+    return sort_hash
   end
+  
 end
