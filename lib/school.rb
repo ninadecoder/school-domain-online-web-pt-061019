@@ -1,5 +1,3 @@
-require 'pry'
-
 class School
   
   def initialize(name)
@@ -31,3 +29,7 @@ class School
   end
   
 end
+
+hodgesbend= School.new("Hoges bend")
+hodgesbend.add_student(9, "Nina Kazzim") 
+puts hodgesbend.grade(9)
